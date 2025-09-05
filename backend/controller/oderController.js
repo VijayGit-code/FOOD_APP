@@ -1,5 +1,5 @@
 import orderModel from "../models/Ordersmodel.js";
-import userModel from "../models/userModel.js";
+import userModel from "../models/usermodel.js";
 import Stripe from "stripe";
 import dotenv from "dotenv";
 
