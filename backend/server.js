@@ -8,7 +8,7 @@ import orderrouter from "./routers/Oderrouter.js"
 import dotenv from "dotenv";
 dotenv.config();
 const app=express()
-const port=4000
+const port=process.env.PORT || 4000
 //middleware
 app.use(express.json())
 app.use(cors())
