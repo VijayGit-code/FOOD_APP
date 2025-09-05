@@ -1,0 +1,42 @@
+npm install express(frame work for nodejs used to create a server) 
+mongoose(it is used to connect server to database) 
+jsonwebtoken(it is used to user authentication) 
+bcrypt (it is used to encrypt the user data)
+cors (it is used to connect frontend and backend it give permision)
+dotenv (it is used to environment variable)
+body-parser (it is middlerware using this we can pass data to user)
+multer (uploading files or images it is stored large data)
+stripe (it is used to payment gateway)
+validator(it used to user is enterd valide details or not) 
+nodemon(auto save and run)
+
+
+we use MONGODBATLAS IN CLOUD 
+->WE SELECT ORGANIZATION
+-->CREATE A NEW PROJECT AND GIVE NAME AND IT CREATE A PROJECT AND CLICK ON BUILD A CLUSTER AND SELECT FREE TIER AND SELECT PROVIDER AND REGION AND CLICK ON CREATE CLUSTER AND IT CREATE A CLUSTER AND CLICK ON DATABASE AND CREATE A DATABASE AND CREATE A USER AND GIVE USERNAME AND PASSWORD AND
+USERNAME :FoodyApp
+PASSWORD :FOOD2209010125app
+then create databseuser then choose database connection methode as DRIVE 
+DRIVE :mongoose DRIVE 
+then it provide connect link : mongodb+srv://FOODYAPP:FOOD2209010125app@cluster0.h5vtm7e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+ then open network and it give one ipaddress for connection and click on network access and add ip address and click on add current ip address
+
+
+ for image view:http://localhost:4000/images/1755972882275-IMG_20250720_212944_697.jpg
+ for databses view :https://cloud.mongodb.com/v2/68a9f3c9f095444cfe9db328#/metrics/replicaSet/68a9f44d064d0e0fc06dc918/explorer/food-delivery/foods/find
+
+ import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css' 
+
+this 2 libraries used for notification messages
+
+
+
+
+
+for payment we use stripe it is free for payments singin and use it will give api link
+
+for testing payment we use card number that is  4000 0035 6000 0008 only for india
+
+
+for payment verification we use Bhooks why we don't use in this it take more time that way we use tempary payment verification
