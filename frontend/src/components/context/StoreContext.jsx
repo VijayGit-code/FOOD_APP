@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 export const StoreContext=createContext(null)
 const StoreContextProvider=(props)=>{
     const[cartitems,setcartitems]=useState({});
-    const url="http://localhost:4000"
+    const url="https://food-app-backend-bzfm.onrender.com"
     const [token,Settoken]=useState("");
     const[food_list,Setfoodlist]=useState([])
     const addTocart=async (itemId)=>{
